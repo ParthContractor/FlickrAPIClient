@@ -15,3 +15,4 @@ This  package is scalable to expose more methods of Flickr.
 * Scope of Improvement/enhancements
   * More APIs of flickr can be analysed and client can be enhanced to keep it generic and exposing more flickr methods.
   * Creating generic framewrork for image search capability regardess of API provider; this can further be achieved by abstracting flickr models and exposing facade with presentation layer models only. 
+  * Test suite can be improved. Also, static strings and duplicate code can be further polished.
