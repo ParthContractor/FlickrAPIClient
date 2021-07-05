@@ -15,7 +15,7 @@ public struct Photo: Decodable {
     let farm: Int64
     public let title: String
     
-    var photoUrl: URL? {
+    public var photoUrl: URL? {
         return URL(string: "https://farm" + "\(farm)" + ".static.flickr.com/" + "\(server)/" + "\(id)_" + "\(secret)" + ".jpg")
     }
     
